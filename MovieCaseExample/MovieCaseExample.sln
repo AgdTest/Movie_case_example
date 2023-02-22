@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieExample.Services.Movie", "MovieExample.Services.Movie\MovieExample.Services.Movie.csproj", "{ADD2BD02-0D1D-4718-A9EE-B706BC898352}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieExample.Shared", "MovieExample.Shared\MovieExample.Shared.csproj", "{82433AE6-7F3C-4BA7-B653-6A15D58E1A81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieExample.Jobs", "MovieExample.Jobs\MovieExample.Jobs.csproj", "{A9A7DA8E-6ED1-419D-AB65-8763B6A0480C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieExample.Services.EmailSender", "MovieExample.Services.EmailSender\MovieExample.Services.EmailSender.csproj", "{A721A0A6-DA19-40DA-A336-D5525F677A5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthenticationManager", "JwtAuthenticationManager\JwtAuthenticationManager.csproj", "{273B954C-4F30-4B40-AF4C-5F992B56EC9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieExample.Servies.Authentication", "MovieExample.Servies.Authentication\MovieExample.Servies.Authentication.csproj", "{10A2FA3C-7D52-4CC8-9BF0-38DF4193FE30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD2BD02-0D1D-4718-A9EE-B706BC898352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD2BD02-0D1D-4718-A9EE-B706BC898352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD2BD02-0D1D-4718-A9EE-B706BC898352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD2BD02-0D1D-4718-A9EE-B706BC898352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82433AE6-7F3C-4BA7-B653-6A15D58E1A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82433AE6-7F3C-4BA7-B653-6A15D58E1A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82433AE6-7F3C-4BA7-B653-6A15D58E1A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82433AE6-7F3C-4BA7-B653-6A15D58E1A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A7DA8E-6ED1-419D-AB65-8763B6A0480C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A7DA8E-6ED1-419D-AB65-8763B6A0480C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A7DA8E-6ED1-419D-AB65-8763B6A0480C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A7DA8E-6ED1-419D-AB65-8763B6A0480C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A721A0A6-DA19-40DA-A336-D5525F677A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A721A0A6-DA19-40DA-A336-D5525F677A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A721A0A6-DA19-40DA-A336-D5525F677A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A721A0A6-DA19-40DA-A336-D5525F677A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273B954C-4F30-4B40-AF4C-5F992B56EC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273B954C-4F30-4B40-AF4C-5F992B56EC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273B954C-4F30-4B40-AF4C-5F992B56EC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273B954C-4F30-4B40-AF4C-5F992B56EC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A2FA3C-7D52-4CC8-9BF0-38DF4193FE30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A2FA3C-7D52-4CC8-9BF0-38DF4193FE30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A2FA3C-7D52-4CC8-9BF0-38DF4193FE30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A2FA3C-7D52-4CC8-9BF0-38DF4193FE30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {288B853A-02A3-4539-B5EF-3C667C9CE5F2}
+	EndGlobalSection
+EndGlobal
